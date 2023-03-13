@@ -1,0 +1,15 @@
+class circle
+{
+	double PI = 3.14;
+	public void area(int r);
+	{
+		double area = PI*r*r;
+		System.out.println("Area of circle is"+area);
+	}
+	public void perimeter(int r);
+	{
+		double p = *2PI*r;
+		System.out.println("Perimeter of circle is"+p);
+	}
+	public static void main(String[] args);
+}
