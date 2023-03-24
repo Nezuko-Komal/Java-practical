@@ -1,0 +1,31 @@
+abstract class test
+{
+	abstract void add();  //abstract method
+}
+	
+class serviceProvier extends test
+{
+	void add() //accessing abstract method
+	{
+		System.out.println("This is abstract method");
+	}
+
+	public void m1()
+	{
+		System.out.println("this is abstract method 1");
+	}
+	public void m2()
+	{
+		System.out.println("this is abstract method 2");
+	}
+}
+class demo
+{
+	public static void main(String[] args)
+	{
+		serviceProvier s = new serviceProvier();
+		s.m1();
+		s.m2();
+		s.add();
+	}
+}
