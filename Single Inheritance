@@ -1,0 +1,23 @@
+class A
+{
+	public void mgs()
+	{
+		System.out.println("This is base class");
+	}
+}
+class B extends A
+{
+	public void mgs1()
+	{
+		System.out.println("This is derived class");
+	}
+}
+class Demo
+{
+	public static void main(String[] args)
+	{
+		B b = new B();
+		b.mgs();
+		b.mgs1();
+	}
+}
