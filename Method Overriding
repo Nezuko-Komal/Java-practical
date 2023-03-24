@@ -1,0 +1,22 @@
+class A
+{
+	public void him()
+	{
+		System.out.println("You are my Loml");
+	}
+}
+class B extends A
+{
+	public void him()
+	{
+		System.out.println("The only i have is You");
+	}
+}
+class Demo
+{
+	public static void main(String[] args)
+	{
+		B b = new B();
+		b.him();
+	}
+}
