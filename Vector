@@ -1,0 +1,16 @@
+import java.util.*;
+class test
+{
+	public static void main(String[] args)
+	{
+		Vector list = new Vector();
+		
+		list.add("Sumeet"); //inserting data into list
+		list.add("you"); 
+		list.add("marry"); 
+		list.add("me");
+		list.add("yes or no?"); 
+		list.insertElementAt("would",1); //insert at specific position
+		System.out.println(list);
+	}
+}
