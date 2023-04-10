@@ -1,0 +1,11 @@
+package myPack1;
+import myPack.*;
+class P1
+{
+	public static void main(String[] args)
+	{
+		PG t = new PG();
+		t.mgs();
+		t.mg();
+	}
+}
