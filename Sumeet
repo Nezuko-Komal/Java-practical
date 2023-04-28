@@ -5,7 +5,7 @@ class test
 	{
 		Vector list = new Vector();
 		
-		list.add("Hii"); //inserting data into list
+		list.add("Arkit"); //inserting data into list
 		list.add("Bhag jaa"); 
 		list.add("Kab jayega?"); 
 		list.add("Jana hai ya nahi?");
